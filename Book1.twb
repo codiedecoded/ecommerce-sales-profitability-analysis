@@ -1,0 +1,3015 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='3533555cefb00729f1f79f2d8aeaa97021c0ac062f94d9817be76ddd8f488961' _.fcp.WorkbookFingerprinting.true...creator-author-id='3533555cefb00729f1f79f2d8aeaa97021c0ac062f94d9817be76ddd8f488961' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='3533555cefb00729f1f79f2d8aeaa97021c0ac062f94d9817be76ddd8f488961' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='3533555cefb00729f1f79f2d8aeaa97021c0ac062f94d9817be76ddd8f488961' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='schedule_a-2026-11-10T19_29_02' inline='true' name='federated.055wvn30gc23tm18h4fvl1ig1ii7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='schedule_a-2026-11-10T19_29_02' name='textscan.07mf5861ku7tjo1b4fjdb17eqlm7'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/DESIGNSTUFF/design2/design3/08-03/elements bgs/gif/pink/12/MOODBOARDS/sonbitch/sonbitch 2/haunted hospital/LUVENIS2/New folder/2/data/26' filename='schedule_a-2026-11-10T19_29_02.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.07mf5861ku7tjo1b4fjdb17eqlm7' name='schedule_a-2026-11-10T19_29_02.csv' table='[schedule_a-2026-11-10T19_29_02#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='committee_id' ordinal='0' />
+            <column datatype='string' name='committee_name' ordinal='1' />
+            <column datatype='integer' name='report_year' ordinal='2' />
+            <column datatype='string' name='report_type' ordinal='3' />
+            <column datatype='integer' name='image_number' ordinal='4' />
+            <column datatype='string' name='filing_form' ordinal='5' />
+            <column datatype='integer' name='link_id' ordinal='6' />
+            <column datatype='string' name='line_number' ordinal='7' />
+            <column datatype='string' name='transaction_id' ordinal='8' />
+            <column datatype='integer' name='file_number' ordinal='9' />
+            <column datatype='string' name='entity_type' ordinal='10' />
+            <column datatype='string' name='entity_type_desc' ordinal='11' />
+            <column datatype='string' name='unused_contbr_id' ordinal='12' />
+            <column datatype='string' name='contributor_prefix' ordinal='13' />
+            <column datatype='string' name='contributor_name' ordinal='14' />
+            <column datatype='string' name='recipient_committee_type' ordinal='15' />
+            <column datatype='string' name='recipient_committee_org_type' ordinal='16' />
+            <column datatype='string' name='recipient_committee_designation' ordinal='17' />
+            <column datatype='string' name='contributor_first_name' ordinal='18' />
+            <column datatype='string' name='contributor_middle_name' ordinal='19' />
+            <column datatype='string' name='contributor_last_name' ordinal='20' />
+            <column datatype='string' name='contributor_suffix' ordinal='21' />
+            <column datatype='string' name='contributor_street_1' ordinal='22' />
+            <column datatype='string' name='contributor_street_2' ordinal='23' />
+            <column datatype='string' name='contributor_city' ordinal='24' />
+            <column datatype='string' name='contributor_state' ordinal='25' />
+            <column datatype='integer' name='contributor_zip' ordinal='26' />
+            <column datatype='string' name='contributor_employer' ordinal='27' />
+            <column datatype='string' name='contributor_occupation' ordinal='28' />
+            <column datatype='string' name='contributor_id' ordinal='29' />
+            <column datatype='boolean' name='is_individual' ordinal='30' />
+            <column datatype='string' name='receipt_type' ordinal='31' />
+            <column datatype='string' name='receipt_type_desc' ordinal='32' />
+            <column datatype='string' name='receipt_type_full' ordinal='33' />
+            <column datatype='string' name='memo_code' ordinal='34' />
+            <column datatype='string' name='memo_code_full' ordinal='35' />
+            <column datatype='string' name='memo_text' ordinal='36' />
+            <column datatype='datetime' name='contribution_receipt_date' ordinal='37' />
+            <column datatype='real' name='contribution_receipt_amount' ordinal='38' />
+            <column datatype='real' name='contributor_aggregate_ytd' ordinal='39' />
+            <column datatype='string' name='candidate_id' ordinal='40' />
+            <column datatype='string' name='candidate_name' ordinal='41' />
+            <column datatype='string' name='candidate_first_name' ordinal='42' />
+            <column datatype='string' name='candidate_last_name' ordinal='43' />
+            <column datatype='string' name='candidate_middle_name' ordinal='44' />
+            <column datatype='string' name='candidate_prefix' ordinal='45' />
+            <column datatype='string' name='candidate_suffix' ordinal='46' />
+            <column datatype='string' name='candidate_office' ordinal='47' />
+            <column datatype='string' name='candidate_office_full' ordinal='48' />
+            <column datatype='string' name='candidate_office_state' ordinal='49' />
+            <column datatype='string' name='candidate_office_state_full' ordinal='50' />
+            <column datatype='string' name='candidate_office_district' ordinal='51' />
+            <column datatype='string' name='conduit_committee_id' ordinal='52' />
+            <column datatype='string' name='conduit_committee_name' ordinal='53' />
+            <column datatype='string' name='conduit_committee_street1' ordinal='54' />
+            <column datatype='string' name='conduit_committee_street2' ordinal='55' />
+            <column datatype='string' name='conduit_committee_city' ordinal='56' />
+            <column datatype='string' name='conduit_committee_state' ordinal='57' />
+            <column datatype='string' name='conduit_committee_zip' ordinal='58' />
+            <column datatype='string' name='donor_committee_name' ordinal='59' />
+            <column datatype='string' name='national_committee_nonfederal_account' ordinal='60' />
+            <column datatype='string' name='election_type' ordinal='61' />
+            <column datatype='string' name='election_type_full' ordinal='62' />
+            <column datatype='string' name='fec_election_type_desc' ordinal='63' />
+            <column datatype='integer' name='fec_election_year' ordinal='64' />
+            <column datatype='integer' name='two_year_transaction_period' ordinal='65' />
+            <column datatype='string' name='amendment_indicator' ordinal='66' />
+            <column datatype='string' name='amendment_indicator_desc' ordinal='67' />
+            <column datatype='string' name='schedule_type' ordinal='68' />
+            <column datatype='string' name='schedule_type_full' ordinal='69' />
+            <column datatype='string' name='increased_limit' ordinal='70' />
+            <column datatype='datetime' name='load_date' ordinal='71' />
+            <column datatype='integer' name='sub_id' ordinal='72' />
+            <column datatype='string' name='original_sub_id' ordinal='73' />
+            <column datatype='string' name='back_reference_transaction_id' ordinal='74' />
+            <column datatype='string' name='back_reference_schedule_name' ordinal='75' />
+            <column datatype='string' name='pdf_url' ordinal='76' />
+            <column datatype='string' name='line_number_label' ordinal='77' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>committee_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[committee_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>committee_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>committee_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[committee_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>committee_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>report_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[report_year]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>report_year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>report_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[report_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>report_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>image_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[image_number]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>image_number</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>filing_form</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[filing_form]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>filing_form</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[link_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>link_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>line_number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[line_number]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>line_number</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transaction_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[transaction_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>transaction_id</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>file_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[file_number]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>file_number</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>entity_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[entity_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>entity_type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>entity_type_desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[entity_type_desc]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>entity_type_desc</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unused_contbr_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[unused_contbr_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>unused_contbr_id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_prefix</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_prefix]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_prefix</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_name</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>recipient_committee_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[recipient_committee_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>recipient_committee_type</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>recipient_committee_org_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[recipient_committee_org_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>recipient_committee_org_type</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>recipient_committee_designation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[recipient_committee_designation]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>recipient_committee_designation</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_first_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_first_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_first_name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_middle_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_middle_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_middle_name</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_last_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_last_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_last_name</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_suffix</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_suffix]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_suffix</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_street_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_street_1]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_street_1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_street_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_street_2]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_street_2</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_city]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_city</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_state]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_state</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contributor_zip]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_zip</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_employer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_employer]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_employer</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_occupation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_occupation]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_occupation</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contributor_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_id</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_individual</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[is_individual]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>is_individual</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>receipt_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[receipt_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>receipt_type</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>receipt_type_desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[receipt_type_desc]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>receipt_type_desc</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>receipt_type_full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[receipt_type_full]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>receipt_type_full</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>memo_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[memo_code]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>memo_code</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>memo_code_full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[memo_code_full]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>memo_code_full</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>memo_text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[memo_text]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>memo_text</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contribution_receipt_date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[contribution_receipt_date]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contribution_receipt_date</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contribution_receipt_amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[contribution_receipt_amount]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contribution_receipt_amount</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contributor_aggregate_ytd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[contributor_aggregate_ytd]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>contributor_aggregate_ytd</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_id</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_name</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_first_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_first_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_first_name</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_last_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_last_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_last_name</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_middle_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_middle_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_middle_name</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_prefix</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_prefix]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_prefix</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_suffix</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_suffix]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_suffix</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_office</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_office]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_office</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_office_full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_office_full]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_office_full</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_office_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_office_state]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_office_state</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_office_state_full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_office_state_full]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_office_state_full</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>candidate_office_district</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[candidate_office_district]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>candidate_office_district</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_id</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_name</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_street1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_street1]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_street1</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_street2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_street2]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_street2</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_city]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_city</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_state]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_state</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conduit_committee_zip</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conduit_committee_zip]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>conduit_committee_zip</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>donor_committee_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[donor_committee_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>donor_committee_name</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>national_committee_nonfederal_account</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[national_committee_nonfederal_account]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>national_committee_nonfederal_account</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>election_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[election_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>election_type</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>election_type_full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[election_type_full]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>election_type_full</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fec_election_type_desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fec_election_type_desc]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>fec_election_type_desc</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fec_election_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fec_election_year]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>fec_election_year</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>two_year_transaction_period</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[two_year_transaction_period]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>two_year_transaction_period</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>amendment_indicator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[amendment_indicator]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>amendment_indicator</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>amendment_indicator_desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[amendment_indicator_desc]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>amendment_indicator_desc</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>schedule_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[schedule_type]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>schedule_type</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>schedule_type_full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[schedule_type_full]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>schedule_type_full</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>increased_limit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[increased_limit]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>increased_limit</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>load_date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[load_date]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>load_date</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sub_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sub_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>sub_id</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>original_sub_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[original_sub_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>original_sub_id</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>back_reference_transaction_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[back_reference_transaction_id]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>back_reference_transaction_id</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>back_reference_schedule_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[back_reference_schedule_name]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>back_reference_schedule_name</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pdf_url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pdf_url]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>pdf_url</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>line_number_label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[line_number_label]</local-name>
+            <parent-name>[schedule_a-2026-11-10T19_29_02.csv]</parent-name>
+            <remote-alias>line_number_label</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='schedule_a-2026-11-10T19_29_02.csv' datatype='table' name='[__tableau_internal_object_id__].[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]' role='measure' type='quantitative' />
+      <column caption='Amendment Indicator' datatype='string' name='[amendment_indicator]' role='dimension' type='nominal' />
+      <column caption='Amendment Indicator Desc' datatype='string' name='[amendment_indicator_desc]' role='dimension' type='nominal' />
+      <column caption='Back Reference Schedule Name' datatype='string' name='[back_reference_schedule_name]' role='dimension' type='nominal' />
+      <column caption='Back Reference Transaction Id' datatype='string' name='[back_reference_transaction_id]' role='dimension' type='nominal' />
+      <column caption='Candidate First Name' datatype='string' name='[candidate_first_name]' role='dimension' type='nominal' />
+      <column caption='Candidate Id' datatype='string' name='[candidate_id]' role='dimension' type='nominal' />
+      <column caption='Candidate Last Name' datatype='string' name='[candidate_last_name]' role='dimension' type='nominal' />
+      <column caption='Candidate Middle Name' datatype='string' name='[candidate_middle_name]' role='dimension' type='nominal' />
+      <column caption='Candidate Name' datatype='string' name='[candidate_name]' role='dimension' type='nominal' />
+      <column caption='Candidate Office' datatype='string' name='[candidate_office]' role='dimension' type='nominal' />
+      <column caption='Candidate Office District' datatype='string' name='[candidate_office_district]' role='dimension' type='nominal' />
+      <column caption='Candidate Office Full' datatype='string' name='[candidate_office_full]' role='dimension' type='nominal' />
+      <column caption='Candidate Office State' datatype='string' name='[candidate_office_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Candidate Office State Full' datatype='string' name='[candidate_office_state_full]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Candidate Prefix' datatype='string' name='[candidate_prefix]' role='dimension' type='nominal' />
+      <column caption='Candidate Suffix' datatype='string' name='[candidate_suffix]' role='dimension' type='nominal' />
+      <column caption='Committee Id' datatype='string' name='[committee_id]' role='dimension' type='nominal' />
+      <column caption='Committee Name' datatype='string' name='[committee_name]' role='dimension' type='nominal' />
+      <column caption='Conduit Committee City' datatype='string' name='[conduit_committee_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Conduit Committee Id' datatype='string' name='[conduit_committee_id]' role='dimension' type='nominal' />
+      <column caption='Conduit Committee Name' datatype='string' name='[conduit_committee_name]' role='dimension' type='nominal' />
+      <column caption='Conduit Committee State' datatype='string' name='[conduit_committee_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Conduit Committee Street1' datatype='string' name='[conduit_committee_street1]' role='dimension' type='nominal' />
+      <column caption='Conduit Committee Street2' datatype='string' name='[conduit_committee_street2]' role='dimension' type='nominal' />
+      <column caption='Conduit Committee Zip' datatype='string' name='[conduit_committee_zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Contribution Receipt Amount' datatype='real' name='[contribution_receipt_amount]' role='measure' type='quantitative' />
+      <column caption='Contribution Receipt Date' datatype='datetime' name='[contribution_receipt_date]' role='dimension' type='ordinal' />
+      <column caption='Contributor Aggregate Ytd' datatype='real' name='[contributor_aggregate_ytd]' role='measure' type='quantitative' />
+      <column caption='Contributor City' datatype='string' name='[contributor_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Contributor Employer' datatype='string' name='[contributor_employer]' role='dimension' type='nominal' />
+      <column caption='Contributor First Name' datatype='string' name='[contributor_first_name]' role='dimension' type='nominal' />
+      <column caption='Contributor Id' datatype='string' name='[contributor_id]' role='dimension' type='nominal' />
+      <column caption='Contributor Last Name' datatype='string' name='[contributor_last_name]' role='dimension' type='nominal' />
+      <column caption='Contributor Middle Name' datatype='string' name='[contributor_middle_name]' role='dimension' type='nominal' />
+      <column caption='Contributor Name' datatype='string' name='[contributor_name]' role='dimension' type='nominal' />
+      <column caption='Contributor Occupation' datatype='string' name='[contributor_occupation]' role='dimension' type='nominal' />
+      <column caption='Contributor Prefix' datatype='string' name='[contributor_prefix]' role='dimension' type='nominal' />
+      <column caption='Contributor State' datatype='string' name='[contributor_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Contributor Street 1' datatype='string' name='[contributor_street_1]' role='dimension' type='nominal' />
+      <column caption='Contributor Street 2' datatype='string' name='[contributor_street_2]' role='dimension' type='nominal' />
+      <column caption='Contributor Suffix' datatype='string' name='[contributor_suffix]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Contributor Zip' datatype='integer' default-format='*00000' name='[contributor_zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Donor Committee Name' datatype='string' name='[donor_committee_name]' role='dimension' type='nominal' />
+      <column caption='Election Type' datatype='string' name='[election_type]' role='dimension' type='nominal' />
+      <column caption='Election Type Full' datatype='string' name='[election_type_full]' role='dimension' type='nominal' />
+      <column caption='Entity Type' datatype='string' name='[entity_type]' role='dimension' type='nominal' />
+      <column caption='Entity Type Desc' datatype='string' name='[entity_type_desc]' role='dimension' type='nominal' />
+      <column caption='Fec Election Type Desc' datatype='string' name='[fec_election_type_desc]' role='dimension' type='nominal' />
+      <column caption='Fec Election Year' datatype='integer' name='[fec_election_year]' role='dimension' type='quantitative' />
+      <column caption='File Number' datatype='integer' name='[file_number]' role='dimension' type='ordinal' />
+      <column caption='Filing Form' datatype='string' name='[filing_form]' role='dimension' type='nominal' />
+      <column caption='Image Number' datatype='integer' name='[image_number]' role='dimension' type='ordinal' />
+      <column caption='Increased Limit' datatype='string' name='[increased_limit]' role='dimension' type='nominal' />
+      <column caption='Is Individual' datatype='boolean' name='[is_individual]' role='dimension' type='nominal' />
+      <column caption='Line Number' datatype='string' name='[line_number]' role='dimension' type='nominal' />
+      <column caption='Line Number Label' datatype='string' name='[line_number_label]' role='dimension' type='nominal' />
+      <column caption='Link Id' datatype='integer' name='[link_id]' role='dimension' type='ordinal' />
+      <column caption='Load Date' datatype='datetime' name='[load_date]' role='dimension' type='ordinal' />
+      <column caption='Memo Code' datatype='string' name='[memo_code]' role='dimension' type='nominal' />
+      <column caption='Memo Code Full' datatype='string' name='[memo_code_full]' role='dimension' type='nominal' />
+      <column caption='Memo Text' datatype='string' name='[memo_text]' role='dimension' type='nominal' />
+      <column caption='National Committee Nonfederal Account' datatype='string' name='[national_committee_nonfederal_account]' role='dimension' type='nominal' />
+      <column caption='Original Sub Id' datatype='string' name='[original_sub_id]' role='dimension' type='nominal' />
+      <column caption='Pdf Url' datatype='string' name='[pdf_url]' role='dimension' type='nominal' />
+      <column caption='Receipt Type' datatype='string' name='[receipt_type]' role='dimension' type='nominal' />
+      <column caption='Receipt Type Desc' datatype='string' name='[receipt_type_desc]' role='dimension' type='nominal' />
+      <column caption='Receipt Type Full' datatype='string' name='[receipt_type_full]' role='dimension' type='nominal' />
+      <column caption='Recipient Committee Designation' datatype='string' name='[recipient_committee_designation]' role='dimension' type='nominal' />
+      <column caption='Recipient Committee Org Type' datatype='string' name='[recipient_committee_org_type]' role='dimension' type='nominal' />
+      <column caption='Recipient Committee Type' datatype='string' name='[recipient_committee_type]' role='dimension' type='nominal' />
+      <column caption='Report Type' datatype='string' name='[report_type]' role='dimension' type='nominal' />
+      <column caption='Report Year' datatype='integer' name='[report_year]' role='dimension' type='quantitative' />
+      <column caption='Schedule Type' datatype='string' name='[schedule_type]' role='dimension' type='nominal' />
+      <column caption='Schedule Type Full' datatype='string' name='[schedule_type_full]' role='dimension' type='nominal' />
+      <column caption='Sub Id' datatype='integer' name='[sub_id]' role='dimension' type='ordinal' />
+      <column caption='Transaction Id' datatype='string' name='[transaction_id]' role='dimension' type='nominal' />
+      <column caption='Two Year Transaction Period' datatype='integer' name='[two_year_transaction_period]' role='measure' type='quantitative' />
+      <column caption='Unused Contbr Id' datatype='string' name='[unused_contbr_id]' role='dimension' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_1llx8bs0ztc51813fyyio0f2rsca.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/11/2026 12:41:24 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>committee_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[committee_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>committee_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>committee_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[committee_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>committee_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>report_year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[report_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>report_year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>report_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[report_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>report_type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>image_number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[image_number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>image_number</remote-alias>
+              <ordinal>4</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23198</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>filing_form</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[filing_form]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>filing_form</remote-alias>
+              <ordinal>5</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>link_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[link_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>link_id</remote-alias>
+              <ordinal>6</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>line_number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[line_number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>line_number</remote-alias>
+              <ordinal>7</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>transaction_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[transaction_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>transaction_id</remote-alias>
+              <ordinal>8</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>61083</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>file_number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[file_number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>file_number</remote-alias>
+              <ordinal>9</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>entity_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[entity_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>entity_type</remote-alias>
+              <ordinal>10</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>entity_type_desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[entity_type_desc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>entity_type_desc</remote-alias>
+              <ordinal>11</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>unused_contbr_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[unused_contbr_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>unused_contbr_id</remote-alias>
+              <ordinal>12</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_prefix</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_prefix]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_prefix</remote-alias>
+              <ordinal>13</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_name</remote-alias>
+              <ordinal>14</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6779</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>recipient_committee_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[recipient_committee_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>recipient_committee_type</remote-alias>
+              <ordinal>15</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>recipient_committee_org_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[recipient_committee_org_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>recipient_committee_org_type</remote-alias>
+              <ordinal>16</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>recipient_committee_designation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[recipient_committee_designation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>recipient_committee_designation</remote-alias>
+              <ordinal>17</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_first_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_first_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_first_name</remote-alias>
+              <ordinal>18</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2382</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_middle_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_middle_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_middle_name</remote-alias>
+              <ordinal>19</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>154</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_last_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_last_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_last_name</remote-alias>
+              <ordinal>20</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5428</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_suffix</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_suffix]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_suffix</remote-alias>
+              <ordinal>21</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_street_1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_street_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_street_1</remote-alias>
+              <ordinal>22</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6779</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_street_2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_street_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_street_2</remote-alias>
+              <ordinal>23</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1870</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_city</remote-alias>
+              <ordinal>24</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1693</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_state</remote-alias>
+              <ordinal>25</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>117</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_zip</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[contributor_zip]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_zip</remote-alias>
+              <ordinal>26</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6519</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_employer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_employer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_employer</remote-alias>
+              <ordinal>27</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3490</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_occupation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_occupation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_occupation</remote-alias>
+              <ordinal>28</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1026</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contributor_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_id</remote-alias>
+              <ordinal>29</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>is_individual</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[is_individual]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>is_individual</remote-alias>
+              <ordinal>30</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>receipt_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[receipt_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>receipt_type</remote-alias>
+              <ordinal>31</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>receipt_type_desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[receipt_type_desc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>receipt_type_desc</remote-alias>
+              <ordinal>32</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>receipt_type_full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[receipt_type_full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>receipt_type_full</remote-alias>
+              <ordinal>33</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>memo_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[memo_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>memo_code</remote-alias>
+              <ordinal>34</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>memo_code_full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[memo_code_full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>memo_code_full</remote-alias>
+              <ordinal>35</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>memo_text</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[memo_text]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>memo_text</remote-alias>
+              <ordinal>36</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contribution_receipt_date</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[contribution_receipt_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contribution_receipt_date</remote-alias>
+              <ordinal>37</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>958</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contribution_receipt_amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[contribution_receipt_amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contribution_receipt_amount</remote-alias>
+              <ordinal>38</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>348</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contributor_aggregate_ytd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[contributor_aggregate_ytd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contributor_aggregate_ytd</remote-alias>
+              <ordinal>39</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1757</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_id</remote-alias>
+              <ordinal>40</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_name</remote-alias>
+              <ordinal>41</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_first_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_first_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_first_name</remote-alias>
+              <ordinal>42</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_last_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_last_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_last_name</remote-alias>
+              <ordinal>43</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_middle_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_middle_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_middle_name</remote-alias>
+              <ordinal>44</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_prefix</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_prefix]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_prefix</remote-alias>
+              <ordinal>45</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_suffix</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_suffix]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_suffix</remote-alias>
+              <ordinal>46</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_office</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_office]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_office</remote-alias>
+              <ordinal>47</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_office_full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_office_full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_office_full</remote-alias>
+              <ordinal>48</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_office_state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_office_state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_office_state</remote-alias>
+              <ordinal>49</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_office_state_full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_office_state_full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_office_state_full</remote-alias>
+              <ordinal>50</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>candidate_office_district</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[candidate_office_district]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>candidate_office_district</remote-alias>
+              <ordinal>51</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_id</remote-alias>
+              <ordinal>52</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_name</remote-alias>
+              <ordinal>53</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_street1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_street1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_street1</remote-alias>
+              <ordinal>54</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_street2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_street2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_street2</remote-alias>
+              <ordinal>55</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_city</remote-alias>
+              <ordinal>56</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_state</remote-alias>
+              <ordinal>57</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>conduit_committee_zip</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[conduit_committee_zip]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>conduit_committee_zip</remote-alias>
+              <ordinal>58</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>donor_committee_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[donor_committee_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>donor_committee_name</remote-alias>
+              <ordinal>59</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>national_committee_nonfederal_account</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[national_committee_nonfederal_account]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>national_committee_nonfederal_account</remote-alias>
+              <ordinal>60</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>election_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[election_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>election_type</remote-alias>
+              <ordinal>61</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>election_type_full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[election_type_full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>election_type_full</remote-alias>
+              <ordinal>62</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fec_election_type_desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fec_election_type_desc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fec_election_type_desc</remote-alias>
+              <ordinal>63</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fec_election_year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fec_election_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fec_election_year</remote-alias>
+              <ordinal>64</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>two_year_transaction_period</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[two_year_transaction_period]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>two_year_transaction_period</remote-alias>
+              <ordinal>65</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>amendment_indicator</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[amendment_indicator]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>amendment_indicator</remote-alias>
+              <ordinal>66</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>amendment_indicator_desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[amendment_indicator_desc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>amendment_indicator_desc</remote-alias>
+              <ordinal>67</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>schedule_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[schedule_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>schedule_type</remote-alias>
+              <ordinal>68</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>schedule_type_full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[schedule_type_full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>schedule_type_full</remote-alias>
+              <ordinal>69</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>increased_limit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[increased_limit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>increased_limit</remote-alias>
+              <ordinal>70</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>load_date</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[load_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>load_date</remote-alias>
+              <ordinal>71</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sub_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[sub_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sub_id</remote-alias>
+              <ordinal>72</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>61083</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>original_sub_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[original_sub_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>original_sub_id</remote-alias>
+              <ordinal>73</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>back_reference_transaction_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[back_reference_transaction_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>back_reference_transaction_id</remote-alias>
+              <ordinal>74</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38052</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>back_reference_schedule_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[back_reference_schedule_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>back_reference_schedule_name</remote-alias>
+              <ordinal>75</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pdf_url</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pdf_url]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pdf_url</remote-alias>
+              <ordinal>76</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23198</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>line_number_label</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[line_number_label]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>line_number_label</remote-alias>
+              <ordinal>77</ordinal>
+              <family>schedule_a-2026-11-10T19_29_02.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='schedule_a-2026-11-10T19_29_02.csv' id='schedule_a-2026-11-10T19_29_02.csv_C0050FAB4F9B4D8E9C8A8682BAC325CA'>
+            <properties context=''>
+              <relation connection='textscan.07mf5861ku7tjo1b4fjdb17eqlm7' name='schedule_a-2026-11-10T19_29_02.csv' table='[schedule_a-2026-11-10T19_29_02#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='committee_id' ordinal='0' />
+                  <column datatype='string' name='committee_name' ordinal='1' />
+                  <column datatype='integer' name='report_year' ordinal='2' />
+                  <column datatype='string' name='report_type' ordinal='3' />
+                  <column datatype='integer' name='image_number' ordinal='4' />
+                  <column datatype='string' name='filing_form' ordinal='5' />
+                  <column datatype='integer' name='link_id' ordinal='6' />
+                  <column datatype='string' name='line_number' ordinal='7' />
+                  <column datatype='string' name='transaction_id' ordinal='8' />
+                  <column datatype='integer' name='file_number' ordinal='9' />
+                  <column datatype='string' name='entity_type' ordinal='10' />
+                  <column datatype='string' name='entity_type_desc' ordinal='11' />
+                  <column datatype='string' name='unused_contbr_id' ordinal='12' />
+                  <column datatype='string' name='contributor_prefix' ordinal='13' />
+                  <column datatype='string' name='contributor_name' ordinal='14' />
+                  <column datatype='string' name='recipient_committee_type' ordinal='15' />
+                  <column datatype='string' name='recipient_committee_org_type' ordinal='16' />
+                  <column datatype='string' name='recipient_committee_designation' ordinal='17' />
+                  <column datatype='string' name='contributor_first_name' ordinal='18' />
+                  <column datatype='string' name='contributor_middle_name' ordinal='19' />
+                  <column datatype='string' name='contributor_last_name' ordinal='20' />
+                  <column datatype='string' name='contributor_suffix' ordinal='21' />
+                  <column datatype='string' name='contributor_street_1' ordinal='22' />
+                  <column datatype='string' name='contributor_street_2' ordinal='23' />
+                  <column datatype='string' name='contributor_city' ordinal='24' />
+                  <column datatype='string' name='contributor_state' ordinal='25' />
+                  <column datatype='integer' name='contributor_zip' ordinal='26' />
+                  <column datatype='string' name='contributor_employer' ordinal='27' />
+                  <column datatype='string' name='contributor_occupation' ordinal='28' />
+                  <column datatype='string' name='contributor_id' ordinal='29' />
+                  <column datatype='boolean' name='is_individual' ordinal='30' />
+                  <column datatype='string' name='receipt_type' ordinal='31' />
+                  <column datatype='string' name='receipt_type_desc' ordinal='32' />
+                  <column datatype='string' name='receipt_type_full' ordinal='33' />
+                  <column datatype='string' name='memo_code' ordinal='34' />
+                  <column datatype='string' name='memo_code_full' ordinal='35' />
+                  <column datatype='string' name='memo_text' ordinal='36' />
+                  <column datatype='datetime' name='contribution_receipt_date' ordinal='37' />
+                  <column datatype='real' name='contribution_receipt_amount' ordinal='38' />
+                  <column datatype='real' name='contributor_aggregate_ytd' ordinal='39' />
+                  <column datatype='string' name='candidate_id' ordinal='40' />
+                  <column datatype='string' name='candidate_name' ordinal='41' />
+                  <column datatype='string' name='candidate_first_name' ordinal='42' />
+                  <column datatype='string' name='candidate_last_name' ordinal='43' />
+                  <column datatype='string' name='candidate_middle_name' ordinal='44' />
+                  <column datatype='string' name='candidate_prefix' ordinal='45' />
+                  <column datatype='string' name='candidate_suffix' ordinal='46' />
+                  <column datatype='string' name='candidate_office' ordinal='47' />
+                  <column datatype='string' name='candidate_office_full' ordinal='48' />
+                  <column datatype='string' name='candidate_office_state' ordinal='49' />
+                  <column datatype='string' name='candidate_office_state_full' ordinal='50' />
+                  <column datatype='string' name='candidate_office_district' ordinal='51' />
+                  <column datatype='string' name='conduit_committee_id' ordinal='52' />
+                  <column datatype='string' name='conduit_committee_name' ordinal='53' />
+                  <column datatype='string' name='conduit_committee_street1' ordinal='54' />
+                  <column datatype='string' name='conduit_committee_street2' ordinal='55' />
+                  <column datatype='string' name='conduit_committee_city' ordinal='56' />
+                  <column datatype='string' name='conduit_committee_state' ordinal='57' />
+                  <column datatype='string' name='conduit_committee_zip' ordinal='58' />
+                  <column datatype='string' name='donor_committee_name' ordinal='59' />
+                  <column datatype='string' name='national_committee_nonfederal_account' ordinal='60' />
+                  <column datatype='string' name='election_type' ordinal='61' />
+                  <column datatype='string' name='election_type_full' ordinal='62' />
+                  <column datatype='string' name='fec_election_type_desc' ordinal='63' />
+                  <column datatype='integer' name='fec_election_year' ordinal='64' />
+                  <column datatype='integer' name='two_year_transaction_period' ordinal='65' />
+                  <column datatype='string' name='amendment_indicator' ordinal='66' />
+                  <column datatype='string' name='amendment_indicator_desc' ordinal='67' />
+                  <column datatype='string' name='schedule_type' ordinal='68' />
+                  <column datatype='string' name='schedule_type_full' ordinal='69' />
+                  <column datatype='string' name='increased_limit' ordinal='70' />
+                  <column datatype='datetime' name='load_date' ordinal='71' />
+                  <column datatype='integer' name='sub_id' ordinal='72' />
+                  <column datatype='string' name='original_sub_id' ordinal='73' />
+                  <column datatype='string' name='back_reference_transaction_id' ordinal='74' />
+                  <column datatype='string' name='back_reference_schedule_name' ordinal='75' />
+                  <column datatype='string' name='pdf_url' ordinal='76' />
+                  <column datatype='string' name='line_number_label' ordinal='77' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='schedule_a-2026-11-10T19_29_02' name='federated.055wvn30gc23tm18h4fvl1ig1ii7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.055wvn30gc23tm18h4fvl1ig1ii7'>
+            <column caption='Contribution Receipt Amount' datatype='real' name='[contribution_receipt_amount]' role='measure' type='quantitative' />
+            <column caption='Contributor Name' datatype='string' name='[contributor_name]' role='dimension' type='nominal' />
+            <column-instance column='[contributor_name]' derivation='None' name='[none:contributor_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contribution_receipt_amount]' derivation='Sum' name='[sum:contribution_receipt_amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.055wvn30gc23tm18h4fvl1ig1ii7].[none:contributor_name:nk]'>
+            <groupfilter count='20' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([contribution_receipt_amount])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:contributor_name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.055wvn30gc23tm18h4fvl1ig1ii7].[none:contributor_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.055wvn30gc23tm18h4fvl1ig1ii7].[sum:contribution_receipt_amount:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.055wvn30gc23tm18h4fvl1ig1ii7].[none:contributor_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.055wvn30gc23tm18h4fvl1ig1ii7].[none:contributor_name:nk]</rows>
+        <cols>[federated.055wvn30gc23tm18h4fvl1ig1ii7].[sum:contribution_receipt_amount:qk]</cols>
+      </table>
+      <simple-id uuid='{3FEA7BE2-B9AB-458F-9C9C-E760AF661CAE}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.055wvn30gc23tm18h4fvl1ig1ii7].[none:contributor_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BD37D26F-B3B3-4979-BE68-1453A79096A7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
